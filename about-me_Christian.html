@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Christian Karamoy</title>
+</head>
+<body>
+
+    <header>
+        <h1>About Me..!</h1>
+        <p>Welcome to my personal profile page!!</p>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#academic">Academic</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="profile">
+            <h2>Student Profile</h2>
+            <img
+                src="https://i.ibb.co.com/x8Lmrfrh/liburan-christian.jpg"
+                alt="Foto kegiatan liburan Christian"
+                width="260"
+            >
+            <p>
+                Hello, my name is Christian Anugrah Pay Karamoy.
+                Currently I am studying at Universitas Advent Indonesia
+                majoring in Information Systems batch 2025.
+            </p>
+            <p>
+                My passion is learning about technology and applying it to solve real-world problems.
+                By majoring in Information Systems, I hope to gain the skills and knowledge necessary to
+                build innovative solutions and improve people's lives using technology.
+            </p>
+
+            <h3>Personal Information</h3>
+            <p>
+                <strong>Name:</strong> Christian Anugrah Pay Karamoy<br>
+                <strong>Age:</strong> 19 years old<br>
+                <strong>Study Program:</strong> Information Systems (Sistem Informasi)<br>
+                <strong>Email:</strong>
+                <a href="mailto:karamoychristian07@gmail.com">karamoychristian07@gmail.com</a>
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <h3>My Favorite Hobbies</h3>
+            <ol>
+                <li>Reading books</li>
+                <li>Playing video games</li>
+                <li>Listening to music</li>
+            </ol>
+
+            <h3>Other Activities I Enjoy</h3>
+            <ul>
+                <li>Designing</li>
+                <li>Watching movies</li>
+                <li>Exploring new technology</li>
+            </ul>
+        </section>
+
+        <section id="academic">
+            <h2>Academic Record</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Semester</th>
+                        <th>Academic Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Odd Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.9</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Even Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.72</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="fullName">Full Name:</label><br>
+                <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    minlength="3"
+                    maxlength="50"
+                    required
+                >
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+                <br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{10,13}"
+                    placeholder="08xxxxxxxxxx"
+                >
+                <br><br>
+
+                <label for="category">Message Category:</label><br>
+                <select id="category" name="category">
+                    <option value="">-- Select Category --</option>
+                    <option value="academic">Academic</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="general">General</option>
+                </select>
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    minlength="10"
+                    maxlength="500"
+                    required
+                ></textarea>
+                <br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Christian Anugrah Pay Karamoy | Web Programming I</p>
+        <p>
+            Information Systems<br>
+            Universitas Advent Indonesia
+        </p>
+    </footer>
+
+</body>
+</html>
